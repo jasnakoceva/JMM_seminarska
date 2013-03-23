@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Здраво</string>
+    <string name="new_game">Нова игра</string>
+    <string name="how_to_play">Како да играм</string>
+    <string name="continue_game">Продолжи</string>
+    <string name="high_scores">Ранг листа</string>
+    <string name="games_list">Ова е листа на игрите</string>
+    <string name="btn1">Клик</string>
+
+</resources>
