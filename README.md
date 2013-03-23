@@ -1,0 +1,2 @@
+JMM_seminarska
+==============
