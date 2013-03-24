@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="76dp"
+    android:paddingRight="76dp"
+    android:background="@android:color/background_dark" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/menu_btn1"
+        android:textSize="25pt"
+        android:onClick="newGame" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="50dp"
+        android:text="@string/menu_btn2" 
+        android:textSize="25pt"
+        android:onClick="howToPlay"/>
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="58dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/menu_btn3"
+        android:textSize="25pt"
+        android:onClick="continueGame"/>
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignLeft="@+id/button3"
+        android:text="@string/menu_btn4"
+        android:textSize="25pt" 
+        android:onClick="highScores"/>
+    
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignRight="@+id/button4"
+        android:text="@string/menu_btn7"
+        android:textSize="25pt"
+        android:onClick="menu" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95dp"
+        android:layout_marginRight="55dp"
+        android:layout_toLeftOf="@+id/button6"
+        android:text="@string/menu_btn6"
+        android:textSize="25pt"
+        android:onClick="settings" />
+    
+</RelativeLayout>

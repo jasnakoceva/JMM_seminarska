@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@android:color/background_dark" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/association"
+        android:textSize="25pt"
+        android:onClick="association" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="100dp"
+        android:text="@string/quiz" 
+        android:textSize="25pt"
+        android:onClick="quiz"/>
+    
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="100dp"
+        android:text="@string/connections"
+        android:textSize="25pt"
+        android:onClick="connections" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/button1"
+        android:onClick=""
+        android:text="@string/scores" 
+        android:textSize="25pt"
+        android:enabled="false" />
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignLeft="@+id/button4"
+        android:text="@string/scores" 
+        android:textSize="25pt"
+        android:onClick=""
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/button5"
+        android:text="@string/scores" 
+        android:textSize="25pt"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="150dp"
+        android:text="@string/scoresSum"
+        android:textSize="25pt"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="150dp"
+        android:text="@string/back"
+        android:textSize="25pt"
+        android:onClick="backToMainMenu" />
+    
+</RelativeLayout>

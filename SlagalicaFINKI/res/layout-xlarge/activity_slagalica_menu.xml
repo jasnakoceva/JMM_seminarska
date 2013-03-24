@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:paddingLeft="76dp"
+    android:paddingRight="76dp" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="150dp"
+        android:onClick="newGame"
+        android:text="@string/menu_btn1"
+        android:textSize="25pt" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="howToPlay"
+        android:text="@string/menu_btn2" 
+        android:textSize="25pt" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="continueGame"
+        android:text="@string/menu_btn3" 
+        android:textSize="25pt"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="highScores"
+        android:text="@string/menu_btn4" 
+        android:textSize="25pt"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" >
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:onClick="menu"
+            android:text="@string/menu_btn6"
+            android:textSize="25pt" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:onClick="settings"
+            android:text="@string/menu_btn7"
+            android:textSize="25pt" />
+    </LinearLayout>
+
+</LinearLayout>

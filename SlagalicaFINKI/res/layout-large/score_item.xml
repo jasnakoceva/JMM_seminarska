@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/hs_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="10pt"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/hs_id"
+        android:textSize="10pt"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hs_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hs_name"
+        android:layout_alignBottom="@+id/hs_name"
+        android:layout_toRightOf="@+id/hs_id"
+        android:layout_marginLeft="310dp"
+         android:textSize="10pt"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/hs_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hs_name"
+        android:layout_toRightOf="@+id/hs_id"
+        android:layout_marginLeft="90dp"
+         android:textSize="8pt"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Za Slagalica Menu activity -->
+    <string name="app_name">Слагалица</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_btn1">Нова игра</string>
+    <string name="menu_btn2">Како да играм</string>
+    <string name="menu_btn3">Продолжи</string>
+    <string name="menu_btn4">Ранг листа</string>
+    <string name="menu_btn5">Facebook</string>
+    <string name="menu_btn6">Мени</string>
+    <string name="menu_btn7">Подесувања</string>
+    <color name="menu_btn_color">#cde4e1</color>
+
+    <!-- Za GamesActivity -->
+    <string name="title_activity_games">Слагалица</string>
+    <string name="association">Асоцијација</string>
+    <string name="quiz">Квиз</string>
+    <string name="connections">Спојувалка</string>
+    <string name="scores">"?"</string>
+    <string name="back">Назад</string>
+    <string name="scoresSum">"0"</string>
+    
+    <!-- Za HighScoresActivty -->
+    <string name="title_activity_high_scores">Слагалица</string>
+	<string name="hs_name">Име</string>
+	<string name="hs_points">Поени</string>
+	
+</resources>
